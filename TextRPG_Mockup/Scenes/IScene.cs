@@ -4,7 +4,7 @@ namespace TextRPG_Team.Scenes;
 public interface IScene
 {
     // 씬을 실행
-    void Run();
+    void Init();
 
     // 다음 씬을 반환 (null이면 종료)
     IScene? GetNextScene();
